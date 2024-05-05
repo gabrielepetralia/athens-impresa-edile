@@ -1,0 +1,50 @@
+[
+  {
+    "img": "/img/projects/proj-1.jpeg",
+    "name": "Progetto Copertura",
+    "slug": "progetto-copertura",
+    "description": "Il progetto di impermeabilizzazione del tetto si propone di preservare e proteggere la struttura edilizia da infiltrazioni d'acqua, garantendo una copertura robusta e resistente alle intemperie. Attraverso l'applicazione di materiali impermeabili e tecnologie avanzate, il tetto è stato reso completamente impermeabile, in modo da prevenire danni causati da pioggia, neve o altre condizioni meteorologiche avverse. <br><br> Il nostro team di esperti ha condotto un'analisi approfondita dello stato attuale del tetto, identificando eventuali falle o zone vulnerabili. Successivamente, è stato selezionato un sistema di impermeabilizzazione che consiste nell'impiego di guaina bituminosa. L'applicazione delle soluzioni è avvenuta con precisione e professionalità, garantendo una protezione duratura nel tempo. <br><br> Questo progetto non solo contribuirà a preservare l'integrità strutturale dell'edificio, ma migliorerà anche l'efficienza energetica, riducendo i costi associati al riscaldamento e al raffreddamento. Inoltre, la scelta di materiali sostenibili e ad alte prestazioni rifletterà l'impegno per la sostenibilità ambientale.",
+    "photos": [
+      "/img/projects/proj-1-1.jpeg",
+      "/img/projects/proj-1-2.jpeg",
+      "/img/projects/proj-1-3.jpeg",
+      "/img/projects/proj-1-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-2.jpeg",
+    "name": "Progetto Cimiteriale",
+    "slug": "progetto-cimiteriale",
+    "description": "Il nostro progetto cimiteriale si concentra sulla realizzazione di una tomba che va oltre la sua funzione primaria, trasformandola in un luogo di memoria e serenità. Con un design sobrio e rispettoso, intendiamo offrire un rifugio duraturo per coloro che sono venuti prima di noi. <br><br> La tomba proposta si integra armoniosamente nell'ambiente circostante, con dettagli attentamente pensati per comunicare un senso di pace e tranquillità. Utilizzando materiali di qualità e design senza tempo, vogliamo creare un luogo che rispecchi la dignità e l'importanza della vita di chi riposa qui. <br><br>  Oltre all'aspetto estetico, ci concentriamo sulla praticità e la durabilità, garantendo che la tomba sia facilmente accessibile per chi desidera rendere omaggio ai propri cari. Il nostro obiettivo è creare un ambiente che favorisca la riflessione e la consolazione, fornendo un luogo duraturo di commemorazione.",
+    "photos": [
+      "/img/projects/proj-2-1.jpeg",
+      "/img/projects/proj-2-2.jpeg",
+      "/img/projects/proj-2-3.jpeg",
+      "/img/projects/proj-2-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-3.jpeg",
+    "name": "Progetto Pavimentazione",
+    "slug": "progetto-pavimentazione",
+    "description": "Il nostro progetto edile si concentra sulla realizzazione di una pavimentazione all'interno di un residence nella zona di Taormina, offrendo un mix equilibrato di funzionalità, estetica e durabilità. La pavimentazione proposta non solo fornisce una superficie resistente e sicura per il traffico pedonale, ma si integra armoniosamente con il contesto architettonico del residence. <br><br> Attraverso l'uso di materiali di alta qualità e un design attentamente studiato, intendiamo migliorare l'esperienza complessiva degli abitanti del residence, offrendo un ambiente accogliente e funzionale. Con questo progetto, miriamo a offrire una soluzione di pavimentazione che unisca forma e funzione, contribuendo a elevare la qualità della vita all'interno della comunità residenziale.",
+    "photos": [
+      "/img/projects/proj-3-1.jpeg",
+      "/img/projects/proj-3-2.jpeg",
+      "/img/projects/proj-3-3.jpeg",
+      "/img/projects/proj-3-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-4.jpeg",
+    "name": "Progetto Bagno",
+    "slug": "progetto-bagno",
+    "description": "Il nostro progetto di ristrutturazione del bagno si distingue per l'attenzione ai dettagli e l'uso sapiente di materiali di alta qualità. Il controsoffitto, realizzato con cura artigianale, conferisce al bagno un aspetto moderno e raffinato, mentre le pareti rivestite in fibra di vetro garantiscono durabilità e resistenza all'umidità, assicurando un ambiente confortevole nel tempo. <br><br> Il rivestimento con piastrelle, selezionate con cura per il loro design e la loro qualità, aggiunge un tocco di eleganza e stile al bagno. Grazie alla loro resistenza all'acqua e alla facilità di pulizia, le piastrelle assicurano una manutenzione agevole e duratura, mantenendo il bagno sempre fresco e accogliente.",
+    "photos": [
+      "/img/projects/proj-4-1.jpeg",
+      "/img/projects/proj-4-2.jpeg",
+      "/img/projects/proj-4-3.jpeg",
+      "/img/projects/proj-4-4.jpeg"
+    ]
+  }
+]

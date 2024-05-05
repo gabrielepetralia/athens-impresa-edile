@@ -1,0 +1,26 @@
+@use "./variables" as *;
+
+body {
+  font-family: $main-font;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.txt-red {
+  color: $gp-red;
+}
+
+.txt-white {
+  color: $gp-white; 
+}
+
+.txt-gray {
+  color: $gp-gray;
+}

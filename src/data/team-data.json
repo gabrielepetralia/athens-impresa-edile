@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/img/members/member1.png",
+    "name": "Salvatore Currenti",
+    "role": "Fondatore",
+    "description": "Salvatore Currenti è il fondatore di ATHENS Cooperativa Currenti. Con una visione avanguardista, ha guidato l'azienda attraverso numerosi progetti di successo, dalla costruzione di residenze a complessi commerciali. La sua leadership ha portato ATHENS Cooperativa Currenti a diventare un punto di riferimento nel settore, riconosciuta per l'alta qualità, l'innovazione e l'impegno verso la sostenibilità. Salvatore è appassionato di architettura e costruzione, e la sua dedizione al lavoro si riflette nei risultati straordinari raggiunti dalla sua azienda."
+  },
+  {
+    "img": "/img/members/member1.png",
+    "name": "Paolo Currenti",
+    "role": "Co-Fondatore",
+    "description": "Paolo Currenti, co-fondatore e figlio del visionario fondatore, è il cuore e la mente innovativa di ATHENS Cooperativa Currenti. Con una profonda connessione alla tradizione edilizia di famiglia, Paolo ha ereditato la passione per l'industria e l'ha trasformata in un'audace prospettiva contemporanea. La sua leadership dinamica e creativa ha portato ATHENS a nuove vette. Paolo sposa l'innovazione, la sostenibilità e l'eccellenza, posizionando l'azienda come un faro di successo nell'industria edile. La sua visione unica continua a plasmare il futuro e la reputazione di ATHENS Cooperativa Currenti."
+  },
+  {
+    "img": "/img/members/member1.png",
+    "name": "Nicolas Biondo",
+    "role": "Geometra",
+    "description": "Nicolas Biondo, giovane geometra e studente di ingegneria all'Università di Catania, porta un approccio fresco e analitico al nostro team. Con una solida formazione e una passione per la risoluzione di problemi tecnici, Nicolas contribuisce a tradurre idee complesse in soluzioni pratiche. La sua dedizione allo studio e la sua voglia di affrontare sfide complesse lo distinguono come un membro prezioso del nostro team in crescita."
+  },
+  {
+    "img": "/img/members/member1.png",
+    "name": "Vincenzo Moschella e Francesca Pagano",
+    "role": "Studio Tecnico",
+    "description": "Vincenzo Moschella e Francesca Pagano, geometri competenti, offrono soluzioni efficaci nei settori della progettazione edile, del catasto e del design. Si impegnano per soddisfare le esigenze dei clienti e mantenendosi aggiornati sulle ultime tendenze, offrono servizi di alta qualità grazie alla loro esperienza multidisciplinare. Lavorano a stretto contatto con i clienti, garantendo progetti personalizzati e di successo. Sono orgogliosi delle loro collaborazioni e pronti ad affrontare nuove sfide per promuovere l'innovazione e il progresso. <br> Visita il loro <a href='https://www.studioprofessionalemp.it/lostudio.html' target='blank' style='text-decoration: underline; color:#9C2015'>sito</a>."
+  }
+]
