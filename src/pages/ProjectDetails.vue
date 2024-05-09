@@ -46,11 +46,11 @@ export default {
     <div class="photos align-items-center justify-content-center d-flex d-md-none flex-column gap-2">
 
       <div @click="openModal(project.img)">
-        <img class="photo" :src="project.img" alt="">
+        <img class="photo" :src="project.img" :alt="project.name">
       </div>
 
       <div v-for="(photo, index) in project.photos" :key="index" class="" @click="openModal(photo)">
-        <img class="photo" :src="photo" alt="">
+        <img class="photo" :src="photo" :alt="project.name + '-' + index">
       </div>
 
     </div>
@@ -59,14 +59,14 @@ export default {
     <div class="photos gap-2 align-items-center justify-content-center d-none d-md-flex">
 
       <div class="w-50" @click="openModal(project.img)">
-        <img class="photo" :src="project.img" alt="">
+        <img class="photo" :src="project.img" :alt="project.name">
       </div>
 
       <div class="w-50">
         <div class="d-flex flex-wrap">
 
           <div v-for="(photo, index) in project.photos" :key="index" class="w-50 p-2" @click="openModal(photo)">
-            <img class="photo" :src="photo" alt="">
+            <img class="photo" :src="photo" :alt="project.name + '-' + index">
           </div>
 
         </div>
@@ -79,7 +79,7 @@ export default {
 
     <div v-if="modalOpen" class="img-modal" @click="closeModal">
       <div class="modal-content">
-        <img :src="modalImage" alt="">
+        <img :src="modalImage" :alt="project.name">
       </div>
     </div>
 

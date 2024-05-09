@@ -1,6 +1,4 @@
 <script>
-// import Map from '../partials/Map.vue';
-
 export default {
   name: "Contacts",
 
@@ -12,7 +10,6 @@ export default {
 
 <template>
   <section id="contacts">
-    <!-- <div class="gp-container"> -->
 
     <div class="background-image">
       <div class="gp-overlay"></div>
@@ -23,10 +20,10 @@ export default {
         
         <div class="d-flex flex-column align-items-center mb-4 ">
           <p>Piazza Gianmaria da Casalvecchio N°1 - 98035 Giardini Naxos (ME)</p>
-          <div class="map w-75">
+          <div class="map gp-container">
             <a href="https://www.google.com/maps/place/Athens+Cooperativa+Currenti/@37.8398319,15.2679132,15z/data=!4m6!3m5!1s0x131411df93cae26f:0x2b7ce2eb1eb3b861!8m2!3d37.8411714!4d15.2778629!16s%2Fg%2F11vr5pc7_b?entry=ttu"
               target="blank">
-              <img class="w-100" src="/img/currenti-maps.png" alt="">
+              <img class="w-100" src="/img/currenti-maps.png" alt="Mappa">
             </a>
           </div>
         </div>
@@ -42,7 +39,6 @@ export default {
       </div>
     </div>
 
-    <!-- </div> -->
   </section>
 </template>
 
@@ -52,8 +48,6 @@ export default {
 section {
   padding: 0;
   background-color: $gp-white;
-  // position: relative;
-  // overflow: hidden;
 
   .background-image {
     position: relative;

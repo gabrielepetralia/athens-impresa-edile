@@ -51,12 +51,12 @@ export default {
 
 header {
   height: 130px;
+  padding-top: 30px;
   // position: fixed;
   // width: 100%;
   // top: 0;
   // left: 0;
   // z-index: 900;
-  padding-top: 30px;
 
   nav {
     ul {

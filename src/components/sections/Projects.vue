@@ -40,11 +40,10 @@ export default {
 
 section {
   padding-bottom: 0;
-  // position: relative;
-  // overflow: hidden;
+  background-color: $gp-gray;
 
   h2 {
-    color: $gp-red;
+    color: $gp-white;
   }
 
   .cards-container {

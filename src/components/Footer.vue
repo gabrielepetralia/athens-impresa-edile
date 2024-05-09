@@ -13,7 +13,7 @@ export default {
       <p>Mail: athens.cooperativa@pec.it</p>
       <p>Cell: +39 3201616530</p>
       <p>P. Iva: 03680950833</p> -->
-      <p class="copyright mb-0">©2024 <em>by</em> <span>Athens Cooperativa Currenti</span></p>
+      <p class="copyright mb-0">&copy;2024 <em>by</em> <span>Athens Cooperativa Currenti</span></p>
     </div>
   </footer>
 </template>

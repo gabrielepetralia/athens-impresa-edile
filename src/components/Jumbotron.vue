@@ -13,7 +13,7 @@ export default {
 
 <template>
   <div class="jumbotron d-flex align-items-center">
-    <div class="gp-container">
+    <div class="gp-container py-5 my-5">
 
       <p class="jumbo-text">
         <span class="text-black">ATHENS</span><br>
@@ -25,7 +25,7 @@ export default {
 
     </div>
 
-    <img src="/img/architecture-project.png" alt="">
+    <img src="/img/architecture-project.png" alt="Background">
   </div>
 
 </template>
@@ -34,10 +34,10 @@ export default {
 @use "../scss/partials/variables" as *;
 
 .jumbotron {
-  padding: 20px 0s;
+  padding: 20px 0;
   position: relative;
   height: calc(100vh - 130px);
-   overflow-x: hidden;
+  overflow-x: hidden;
   
   .jumbo-text {
     font-weight: 600;
