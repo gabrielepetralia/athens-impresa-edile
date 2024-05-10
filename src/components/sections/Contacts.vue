@@ -1,10 +1,7 @@
 <script>
 export default {
   name: "Contacts",
-
-  components: {
-    // Map
-  }
+  
 }
 </script>
 
@@ -17,9 +14,12 @@ export default {
       <h2 class="text-center mb-5">Contatti</h2>
 
       <div class="d-flex flex-column align-items-center">
-        
+
         <div class="d-flex flex-column align-items-center mb-4 ">
-          <p>Piazza Gianmaria da Casalvecchio N°1 - 98035 Giardini Naxos (ME)</p>
+          <p title="Indirizzo"><i class="fa-solid fa-location-dot me-2"></i>Piazza Gianmaria da Casalvecchio N°1 -
+            98035 Giardini Naxos
+            (ME)
+          </p>
           <div class="map gp-container">
             <a href="https://www.google.com/maps/place/Athens+Cooperativa+Currenti/@37.8398319,15.2679132,15z/data=!4m6!3m5!1s0x131411df93cae26f:0x2b7ce2eb1eb3b861!8m2!3d37.8411714!4d15.2778629!16s%2Fg%2F11vr5pc7_b?entry=ttu"
               target="blank">
@@ -28,13 +28,12 @@ export default {
           </div>
         </div>
 
-        <!-- <Map/> -->
-
         <div class="info">
-          <p><span>Pec:</span> athens.cooperativa@pec.it</p>
-          <p><span>Mail:</span> athenscooperative@libero.it</p>
-          <p><span>Cell:</span> +39 3201616530</p>
-          <p><span>P.Iva:</span> 03680950833</p>
+          <p title="Posta Elettronica Certificata"><i class="fa-solid fa-envelope me-2"></i>athens.cooperativa@pec.it
+          </p>
+          <p title="Email"><i class="fa-solid fa-at me-2"></i>athenscooperative@libero.it</p>
+          <p title="Telefono"><i class="fa-solid fa-phone me-2"></i>+39 3201616530</p>
+          <p title="Partita IVA"><i class="fa-solid fa-file-invoice-dollar me-2"></i>03680950833</p>
         </div>
       </div>
     </div>
@@ -56,6 +55,8 @@ section {
     background-image: url("/img/contacts-bg.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
   h2 {

@@ -56,6 +56,8 @@ section {
     background-image: url("/img/about-bg.jpeg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
   h2 {
