@@ -23,7 +23,7 @@ export default {
 
 footer {
   color: $gp-white;
-  background-color: $gp-gray;
+  background-color: $gp-red;
   font-weight: 300;
   height: 70px;
 

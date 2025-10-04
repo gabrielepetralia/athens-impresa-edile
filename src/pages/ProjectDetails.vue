@@ -3,7 +3,6 @@ import projectsData from '../data/projects-data.json'
 
 export default {
   name: "ProjectDetail",
-
   data() {
     return {
       projects: projectsData,
@@ -12,26 +11,23 @@ export default {
       modalImage: '',
     }
   },
-
   methods: {
     openModal(imageSrc) {
-      this.modalOpen = true;
-      this.modalImage = imageSrc;
+      this.modalOpen = true
+      this.modalImage = imageSrc
     },
     closeModal() {
-      this.modalOpen = false;
-      this.modalImage = '';
+      this.modalOpen = false
+      this.modalImage = ''
     },
   },
-
-   created() {
-    window.scrollTo(0, 0);
-    
+  created() {
+    window.scrollTo(0, 0)
     try {
-      const projectSlug = this.$route.params.slug;
-      this.project = this.projects.find(project => project.slug === projectSlug);
+      const projectSlug = this.$route.params.slug
+      this.project = this.projects.find(project => project.slug === projectSlug) || {}
     } catch (error) {
-      console.error('Error in created hook:', error);
+      console.error('Error in created hook:', error)
     }
   },
 }
@@ -39,41 +35,27 @@ export default {
 
 <template>
   <div class="project-details gp-container py-5">
-
     <h2 class="text-center mb-5">{{ project.name }}</h2>
 
-    <!-- mobile photos -->
-    <div class="photos align-items-center justify-content-center d-flex d-md-none flex-column gap-2">
-
-      <div @click="openModal(project.img)">
-        <img class="photo" :src="project.img" :alt="project.name">
+    <div class="photos-mobile d-grid d-md-none">
+      <div class="frame frame--main" @click="openModal(project.img)">
+        <img class="photo" :src="project.img" :alt="project.name" loading="lazy" />
       </div>
-
-      <div v-for="(photo, index) in project.photos" :key="index" class="" @click="openModal(photo)">
-        <img class="photo" :src="photo" :alt="project.name + '-' + index">
+      <div v-for="(photo, index) in project.photos" :key="'m-'+index" class="frame frame--thumb" @click="openModal(photo)">
+        <img class="photo" :src="photo" :alt="`${project.name}-${index}`" loading="lazy" />
       </div>
-
     </div>
 
-    <!-- desktop photos -->
-    <div class="photos gap-2 align-items-center justify-content-center d-none d-md-flex">
-
-      <div class="w-50" @click="openModal(project.img)">
-        <img class="photo" :src="project.img" :alt="project.name">
+    <div class="photos photos--desktop d-none d-md-grid">
+      <div class="frame frame--main-left" @click="openModal(project.img)">
+        <img class="photo" :src="project.img" :alt="project.name" loading="lazy">
       </div>
-
-      <div class="w-50">
-        <div class="d-flex flex-wrap">
-
-          <div v-for="(photo, index) in project.photos" :key="index" class="w-50 p-2" @click="openModal(photo)">
-            <img class="photo" :src="photo" :alt="project.name + '-' + index">
-          </div>
-
+      <div class="aside">
+        <div v-for="(photo, index) in project.photos" :key="'d-'+index" class="frame frame--thumb" @click="openModal(photo)">
+          <img class="photo" :src="photo" :alt="`${project.name}-${index}`" loading="lazy">
         </div>
       </div>
-
     </div>
-
 
     <p v-html="project.description" class="my-5"></p>
 
@@ -82,7 +64,6 @@ export default {
         <img :src="modalImage" :alt="project.name">
       </div>
     </div>
-
   </div>
 </template>
 
@@ -91,44 +72,74 @@ export default {
 
 .project-details {
   min-height: calc(100vh - 200px);
+  h2 { color: $gp-red; }
+  p  { text-align: justify; }
 
   .img-modal {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    inset: 0;
+    background-color: rgba(0,0,0,.8);
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 999;
     cursor: pointer;
   }
+  .modal-content { width: 80%; height: 80%; overflow: hidden; }
+  .img-modal img { width: 100%; height: 100%; object-fit: contain; }
 
-  .modal-content {
-    width: 80%;
-    height: 80%;
-    overflow: hidden;
+  .photos-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    align-items: start;
+  }
+  .photos-mobile .frame--main {
+    grid-column: 1 / -1;
+    aspect-ratio: 16 / 9;
+  }
+  .photos-mobile .frame--thumb { aspect-ratio: 3 / 2; }
+
+  .photos--desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    align-items: stretch;
   }
 
-  img {
+  .frame {
+    position: relative;
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  h2 {
-    color: $gp-red;
-  }
-
-  p {
-    text-align: justify;
-  }
-
-  .photo {
+    overflow: hidden;
+    border-radius: 15px;
     cursor: pointer;
   }
+  .frame > img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.3s;
+    will-change: transform;
+  }
+  .frame:hover > img { transform: scale(1.05); }
 
+  .frame--main-left {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    height: 100%;
+  }
+
+  .aside {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .aside .frame--thumb { aspect-ratio: 3 / 2; }
 }
 </style>

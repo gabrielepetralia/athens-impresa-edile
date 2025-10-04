@@ -34,9 +34,22 @@ export default {
   color: $gp-white;
   overflow: hidden;
 
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+  }
+
   img {
     position: absolute;
+    inset: 0;
+    width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.3s;
+    will-change: transform
   }
 
   .card-content {

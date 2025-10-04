@@ -1,24 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/img/logo-currenti.png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ATHENS | Cooperativa Currenti</title>
-
+  <title>Athens Cooperativa Currenti | Impresa Edile - Giardini Naxos (ME)</title>
   <meta name="description"
-    content="Athens Cooperativa Currenti è una giovane e dinamica impresa edile con sede a Giardini Naxos (ME), la
-            quale si occupa di ideare, sviluppare e realizzare progetti di edilizia, impiegando le più moderne tecnologie
-            disponibili.">
-  <meta name="keywords" content="impresa edile, edilizia, ristrutturazioni, costruzioni, Giardini Naxos">
-  <meta name="author" content="Athens Cooperativa Currenti">
+    content="Athens Cooperativa Currenti è un'impresa edile con sede a Giardini Naxos (ME). Costruzioni, ristrutturazioni e progetti innovativi con tecnologie moderne.">
 
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://athensimpresaedile.com/">
+  <link rel="alternate" hreflang="it-IT" href="https://athensimpresaedile.com/">
+  <link rel="alternate" hreflang="x-default" href="https://athensimpresaedile.com/">
+
+  <!-- Open Graph (utile per anteprime link su WhatsApp, Messenger, ecc.) -->
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Athens Cooperativa Currenti | Impresa Edile - Giardini Naxos (ME)">
+  <meta property="og:description"
+    content="Progetti, costruzioni e ristrutturazioni edili con tecnologie moderne a Giardini Naxos (ME).">
+  <meta property="og:url" content="https://athensimpresaedile.com/">
+  <meta property="og:site_name" content="Athens Cooperativa Currenti">
+  <meta property="og:image" content="https://athensimpresaedile.com/img/logo-currenti.png">
+
+  <!-- Favicon minima -->
+  <link rel="icon" type="image/png" href="/img/logo-currenti.png">
 </head>
 
 <body>
   <div id="app"></div>
+
+  <!-- Contenuto base per chi ha JS disabilitato / fallback SEO leggero -->
+  <noscript>
+    <header>
+      <h1>Athens Cooperativa Currenti</h1>
+      <p>Impresa edile a Giardini Naxos (ME): costruzioni e ristrutturazioni con tecnologie moderne.</p>
+      <p><strong>Telefono:</strong> +39 320 161 6530 — <strong>Email:</strong> athens.cooperativa@pec.it</p>
+      <address>Piazza Gianmaria da Casalvecchio 1, 98035 Giardini Naxos (ME)</address>
+    </header>
+    <section>
+      <h2>Servizi</h2>
+      <ul>
+        <li>Costruzioni civili e industriali</li>
+        <li>Ristrutturazioni e riqualificazioni</li>
+        <li>Progettazione e direzione lavori</li>
+        <li>Efficientamento energetico</li>
+      </ul>
+    </section>
+  </noscript>
+
+  <!-- Structured Data essenziale -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ConstructionCompany",
+    "@id": "https://athensimpresaedile.com/#organization",
+    "name": "Athens Cooperativa Currenti",
+    "url": "https://athensimpresaedile.com/",
+    "logo": "https://athensimpresaedile.com/img/logo-currenti.png",
+    "image": "https://athensimpresaedile.com/img/logo-currenti.png",
+    "description": "Impresa edile specializzata in costruzioni, ristrutturazioni e progetti innovativi a Giardini Naxos (ME).",
+    "email": "athens.cooperativa@pec.it",
+    "telephone": "+393201616530",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Piazza Gianmaria da Casalvecchio 1",
+      "addressLocality": "Giardini Naxos",
+      "addressRegion": "ME",
+      "postalCode": "98035",
+      "addressCountry": "IT"
+    }
+  }
+  </script>
+
   <script type="module" src="/src/main.js"></script>
 </body>
 

@@ -14,6 +14,12 @@ export default {
     return {
       projects: projectsData
     }
+  },
+
+  computed: {
+    reversedProjects() {
+      return [...this.projects].reverse();
+    }
   }
 }
 </script>
@@ -23,7 +29,7 @@ export default {
       <h2 class="text-center mb-5">Progetti</h2>
 
       <div class="cards-container">
-        <div v-for="(project, index) in projects" :key="index" class="proj-col">
+        <div v-for="(project, index) in reversedProjects" :key="index" class="proj-col">
           <ProjectCard :project="project"/>
         </div>
       </div>
@@ -40,10 +46,10 @@ export default {
 
 section {
   padding-bottom: 0;
-  background-color: $gp-gray;
+  background-color: $gp-white;
 
   h2 {
-    color: $gp-white;
+    color: $gp-red;
   }
 
   .cards-container {

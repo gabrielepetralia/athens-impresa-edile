@@ -39,10 +39,10 @@ export default {
 @use "../../scss/partials/variables" as *;
 
 section {
-  background-color: $gp-gray;
+  background-color: $gp-white;
 
   h2 {
-    color: $gp-white;
+    color: $gp-red;
   }
 
   p {

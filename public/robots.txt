@@ -1,0 +1,6 @@
+# robots.txt per Athens Cooperativa Currenti
+# Consente la scansione completa del sito
+User-agent: *
+Allow: /
+
+Sitemap: https://athensimpresaedile.com/sitemap.xml

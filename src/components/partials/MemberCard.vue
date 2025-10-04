@@ -35,6 +35,12 @@ export default {
   height: 100%;
   border-radius: 20px;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+
+  &:hover {
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+  }
 
   .member-img {
     border-radius: 50%;

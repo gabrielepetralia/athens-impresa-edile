@@ -46,5 +46,29 @@
       "/img/projects/proj-4-3.jpeg",
       "/img/projects/proj-4-4.jpeg"
     ]
+  },
+  {
+    "img": "/img/projects/proj-5.jpeg",
+    "name": "Progetti Facciate",
+    "slug": "progetti-facciate",
+    "description": "I progetti di manutenzione straordinaria delle facciate hanno l'obiettivo di preservare e valorizzare l'integrità estetica e strutturale degli edifici, intervenendo su eventuali danni o degradi superficiali.<br>Attraverso l'uso di materiali specifici e tecniche avanzate, le facciate sono state restaurate per garantire sicurezza, durabilità e un aspetto uniforme e curato.<br><br>Il nostro team di esperti ha effettuato un'analisi approfondita dello stato delle superfici esterne, individuando crepe, distacchi o segni di deterioramento.<br>Successivamente, sono stati selezionati i sistemi di intervento più adeguati, comprendenti il consolidamento degli elementi strutturali, il ripristino degli intonaci e la protezione con vernici e rivestimenti idonei.<br>L'applicazione delle soluzioni è stata eseguita con precisione e professionalità, assicurando risultati duraturi e una manutenzione futura più agevole.<br><br>Questi interventi non solo contribuiscono a preservare la sicurezza e la stabilità delle strutture, ma migliorano anche l'efficienza energetica degli edifici e l'impatto visivo delle facciate.<br>La scelta di materiali ad alte prestazioni e rispettosi dell'ambiente sottolinea l'impegno verso la sostenibilità e la qualità del progetto.",
+    "photos": [
+      "/img/projects/proj-5-1.jpeg",
+      "/img/projects/proj-5-2.jpeg",
+      "/img/projects/proj-5-3.jpeg",
+      "/img/projects/proj-5-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-6.jpeg",
+    "name": "Progetto Beach Club",
+    "slug": "progetto-beach-club",
+    "description": "Il progetto di realizzazione di questo beach club situato a Taormina ha l'obiettivo di creare uno spazio esclusivo e accogliente, in cui relax, comfort e design si fondono armoniosamente con il contesto naturale.<br>Attraverso un'attenta progettazione architettonica e l'utilizzo di materiali di alta qualità, il beach club è stato concepito per offrire aree lounge, servizi ricettivi e spazi ricreativi funzionali ed eleganti.<br><br>Il nostro team ha seguito tutte le fasi del progetto, dall'analisi del sito alla definizione degli spazi, garantendo soluzioni su misura che rispettano il paesaggio e le normative locali.<br>L'intervento ha incluso la realizzazione di strutture leggere e resistenti, pavimentazioni sicure, arredi di design e sistemi per la gestione ottimale degli impianti, assicurando comfort e durabilità.",
+    "photos": [
+      "/img/projects/proj-6-1.jpeg",
+      "/img/projects/proj-6-2.jpeg",
+      "/img/projects/proj-6-3.jpeg",
+      "/img/projects/proj-6-4.jpeg"
+    ]
   }
 ]
