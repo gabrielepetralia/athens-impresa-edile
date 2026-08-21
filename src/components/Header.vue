@@ -58,6 +58,12 @@ header {
   // left: 0;
   // z-index: 900;
 
+  .logo {
+    img {
+      height: 150% !important;
+    }
+  }
+
   nav {
     ul {
       gap: 40px;
