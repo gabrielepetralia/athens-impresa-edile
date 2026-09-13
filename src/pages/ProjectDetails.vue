@@ -72,6 +72,18 @@ export default {
 
 .project-details {
   min-height: calc(100vh - 200px);
+
+  .back-link {
+    color: $gp-gray;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $gp-red;
+    }
+  }
+
   h2 { color: $gp-red; }
   p  { text-align: justify; }
 

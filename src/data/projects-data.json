@@ -1,8 +1,8 @@
 [
   {
     "img": "/img/projects/proj-1.jpeg",
-    "name": "Progetto Copertura",
-    "slug": "progetto-copertura",
+    "name": "Impermeabilizzazione Tetto",
+    "slug": "impermeabilizzazione-tetto",
     "description": "Il progetto di impermeabilizzazione del tetto si propone di preservare e proteggere la struttura edilizia da infiltrazioni d'acqua, garantendo una copertura robusta e resistente alle intemperie. Attraverso l'applicazione di materiali impermeabili e tecnologie avanzate, il tetto è stato reso completamente impermeabile, in modo da prevenire danni causati da pioggia, neve o altre condizioni meteorologiche avverse. <br><br> Il nostro team di esperti ha condotto un'analisi approfondita dello stato attuale del tetto, identificando eventuali falle o zone vulnerabili. Successivamente, è stato selezionato un sistema di impermeabilizzazione che consiste nell'impiego di guaina bituminosa. L'applicazione delle soluzioni è avvenuta con precisione e professionalità, garantendo una protezione duratura nel tempo. <br><br> Questo progetto non solo contribuirà a preservare l'integrità strutturale dell'edificio, ma migliorerà anche l'efficienza energetica, riducendo i costi associati al riscaldamento e al raffreddamento. Inoltre, la scelta di materiali sostenibili e ad alte prestazioni rifletterà l'impegno per la sostenibilità ambientale.",
     "photos": [
       "/img/projects/proj-1-1.jpeg",
@@ -13,8 +13,8 @@
   },
   {
     "img": "/img/projects/proj-2.jpeg",
-    "name": "Progetto Cimiteriale",
-    "slug": "progetto-cimiteriale",
+    "name": "Realizzazione Tomba",
+    "slug": "realizzazione-tomba",
     "description": "Il nostro progetto cimiteriale si concentra sulla realizzazione di una tomba che va oltre la sua funzione primaria, trasformandola in un luogo di memoria e serenità. Con un design sobrio e rispettoso, intendiamo offrire un rifugio duraturo per coloro che sono venuti prima di noi. <br><br> La tomba proposta si integra armoniosamente nell'ambiente circostante, con dettagli attentamente pensati per comunicare un senso di pace e tranquillità. Utilizzando materiali di qualità e design senza tempo, vogliamo creare un luogo che rispecchi la dignità e l'importanza della vita di chi riposa qui. <br><br>  Oltre all'aspetto estetico, ci concentriamo sulla praticità e la durabilità, garantendo che la tomba sia facilmente accessibile per chi desidera rendere omaggio ai propri cari. Il nostro obiettivo è creare un ambiente che favorisca la riflessione e la consolazione, fornendo un luogo duraturo di commemorazione.",
     "photos": [
       "/img/projects/proj-2-1.jpeg",
@@ -25,8 +25,8 @@
   },
   {
     "img": "/img/projects/proj-3.jpeg",
-    "name": "Progetto Pavimentazione",
-    "slug": "progetto-pavimentazione",
+    "name": "Pavimentazione Residence",
+    "slug": "pavimentazione-residence",
     "description": "Il nostro progetto edile si concentra sulla realizzazione di una pavimentazione all'interno di un residence nella zona di Taormina, offrendo un mix equilibrato di funzionalità, estetica e durabilità. La pavimentazione proposta non solo fornisce una superficie resistente e sicura per il traffico pedonale, ma si integra armoniosamente con il contesto architettonico del residence. <br><br> Attraverso l'uso di materiali di alta qualità e un design attentamente studiato, intendiamo migliorare l'esperienza complessiva degli abitanti del residence, offrendo un ambiente accogliente e funzionale. Con questo progetto, miriamo a offrire una soluzione di pavimentazione che unisca forma e funzione, contribuendo a elevare la qualità della vita all'interno della comunità residenziale.",
     "photos": [
       "/img/projects/proj-3-1.jpeg",
@@ -37,8 +37,8 @@
   },
   {
     "img": "/img/projects/proj-4.jpeg",
-    "name": "Progetto Bagno",
-    "slug": "progetto-bagno",
+    "name": "Ristrutturazione Bagno",
+    "slug": "ristrutturazione-bagno",
     "description": "Il nostro progetto di ristrutturazione del bagno si distingue per l'attenzione ai dettagli e l'uso sapiente di materiali di alta qualità. Il controsoffitto, realizzato con cura artigianale, conferisce al bagno un aspetto moderno e raffinato, mentre le pareti rivestite in fibra di vetro garantiscono durabilità e resistenza all'umidità, assicurando un ambiente confortevole nel tempo. <br><br> Il rivestimento con piastrelle, selezionate con cura per il loro design e la loro qualità, aggiunge un tocco di eleganza e stile al bagno. Grazie alla loro resistenza all'acqua e alla facilità di pulizia, le piastrelle assicurano una manutenzione agevole e duratura, mantenendo il bagno sempre fresco e accogliente.",
     "photos": [
       "/img/projects/proj-4-1.jpeg",
@@ -49,8 +49,8 @@
   },
   {
     "img": "/img/projects/proj-5.jpeg",
-    "name": "Progetti Facciate",
-    "slug": "progetti-facciate",
+    "name": "Manutenzione Facciate",
+    "slug": "manutenzione-facciate",
     "description": "I progetti di manutenzione straordinaria delle facciate hanno l'obiettivo di preservare e valorizzare l'integrità estetica e strutturale degli edifici, intervenendo su eventuali danni o degradi superficiali.<br>Attraverso l'uso di materiali specifici e tecniche avanzate, le facciate sono state restaurate per garantire sicurezza, durabilità e un aspetto uniforme e curato.<br><br>Il nostro team di esperti ha effettuato un'analisi approfondita dello stato delle superfici esterne, individuando crepe, distacchi o segni di deterioramento.<br>Successivamente, sono stati selezionati i sistemi di intervento più adeguati, comprendenti il consolidamento degli elementi strutturali, il ripristino degli intonaci e la protezione con vernici e rivestimenti idonei.<br>L'applicazione delle soluzioni è stata eseguita con precisione e professionalità, assicurando risultati duraturi e una manutenzione futura più agevole.<br><br>Questi interventi non solo contribuiscono a preservare la sicurezza e la stabilità delle strutture, ma migliorano anche l'efficienza energetica degli edifici e l'impatto visivo delle facciate.<br>La scelta di materiali ad alte prestazioni e rispettosi dell'ambiente sottolinea l'impegno verso la sostenibilità e la qualità del progetto.",
     "photos": [
       "/img/projects/proj-5-1.jpeg",
@@ -61,14 +61,63 @@
   },
   {
     "img": "/img/projects/proj-6.jpeg",
-    "name": "Progetto Beach Club",
-    "slug": "progetto-beach-club",
+    "name": "Beach Club Taormina",
+    "slug": "beach-club-taormina",
     "description": "Il progetto di realizzazione di questo beach club situato a Taormina ha l'obiettivo di creare uno spazio esclusivo e accogliente, in cui relax, comfort e design si fondono armoniosamente con il contesto naturale.<br>Attraverso un'attenta progettazione architettonica e l'utilizzo di materiali di alta qualità, il beach club è stato concepito per offrire aree lounge, servizi ricettivi e spazi ricreativi funzionali ed eleganti.<br><br>Il nostro team ha seguito tutte le fasi del progetto, dall'analisi del sito alla definizione degli spazi, garantendo soluzioni su misura che rispettano il paesaggio e le normative locali.<br>L'intervento ha incluso la realizzazione di strutture leggere e resistenti, pavimentazioni sicure, arredi di design e sistemi per la gestione ottimale degli impianti, assicurando comfort e durabilità.",
     "photos": [
       "/img/projects/proj-6-1.jpeg",
       "/img/projects/proj-6-2.jpeg",
       "/img/projects/proj-6-3.jpeg",
       "/img/projects/proj-6-4.jpeg"
+    ]
+  },
+  
+  {
+    "img": "/img/projects/proj-7.jpeg",
+    "name": "Tettoia in Legno",
+    "slug": "tettoia-in-legno",
+    "description": "Il progetto di realizzazione di questa tettoia in legno ha l'obiettivo di creare una copertura elegante e funzionale, perfettamente integrata con la facciata dell'edificio residenziale a cui è addossata.<br>La struttura, composta da travi e pilastri in legno massello verniciato di bianco, è stata completata con una copertura in tegole di cotto, richiamando i materiali tradizionali della costruzione originale e garantendo un risultato esteticamente coerente.<br><br>Ogni elemento in legno è stato lavorato e levigato artigianalmente prima della posa in opera, assicurando superfici curate nei dettagli e una finitura di alta qualità.<br>Il team ha seguito tutte le fasi del lavoro, dalla preparazione e lavorazione delle travi in cantiere fino al montaggio in quota della struttura portante e alla posa delle tegole.",
+    "photos": [
+      "/img/projects/proj-7-1.jpeg",
+      "/img/projects/proj-7-2.jpeg",
+      "/img/projects/proj-7-3.jpeg",
+      "/img/projects/proj-7-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-8.jpeg",
+    "name": "Lavori di Scavo",
+    "slug": "lavori-di-scavo",
+    "description": "Le immagini raccolte in questa sezione mostrano una selezione di interventi di scavo realizzati nell'ambito di cantieri differenti, a testimonianza della versatilità e della competenza del nostro team in contesti tra loro molto diversi.<br>Dagli scavi su arenile e waterfront, alle demolizioni di pavimentazioni in aree condominiali fronte mare, fino agli sbancamenti su terreni collinari e agli scavi in profondità in ambito cimiteriale, ogni intervento ha richiesto l'impiego di mezzi adeguati e un approccio tecnico calibrato sulle specificità del sito.<br><br>In tutti i casi, la presenza di escavatori compatti e macchinari specializzati ha permesso di operare con precisione anche in spazi ristretti o in condizioni morfologiche complesse, garantendo sicurezza, efficienza e rispetto delle tempistiche di cantiere.",
+    "photos": [
+      "/img/projects/proj-8-1.jpeg",
+      "/img/projects/proj-8-2.jpeg",
+      "/img/projects/proj-8-3.jpeg",
+      "/img/projects/proj-8-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-10.jpeg",
+    "name": "Impermeabilizzazione Giunto",
+    "slug": "impermeabilizzazione-giunto",
+    "description": "L'intervento ha riguardato il risanamento e l'impermeabilizzazione di un giunto di dilatazione su una pavimentazione stradale in zona lungomare, un lavoro che richiede precisione esecutiva e l'impiego di materiali specifici per garantire la tenuta nel tempo in condizioni di forte esposizione agli agenti atmosferici.<br><br>La prima fase ha previsto la demolizione del vecchio manto deteriorato mediante mini escavatore con martello demolitore, rimuovendo completamente il materiale ammalorato e preparando il piano di posa per il nuovo intervento.<br>Successivamente è stata applicata la guaina bituminosa armata, stesa con cura lungo tutto il giunto e saldata a fiamma per assicurare una perfetta adesione e continuità impermeabilizzante, eliminando qualsiasi rischio di infiltrazione d'acqua nella struttura sottostante.",
+    "photos": [
+      "/img/projects/proj-10-1.jpeg",
+      "/img/projects/proj-10-2.jpeg",
+      "/img/projects/proj-10-3.jpeg",
+      "/img/projects/proj-10-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-9.jpeg",
+    "name": "Posa Pavimenti e Rivestimenti",
+    "slug": "posa-pavimenti-rivestimenti",
+    "description": "Gli interventi di posa pavimenti e rivestimenti raccolti in questa sezione documentano una serie di lavori realizzati in contesti molto diversi tra loro, a dimostrazione della versatilità del nostro team nella scelta e nell'applicazione dei materiali.<br>Dalle piastrelle in stile maiolica decorate a mano per cucine esterne, ai rivestimenti a parete in gres effetto pietra per interni in ristrutturazione, fino alla pavimentazione su arenile fronte mare e alle mattonelle decorate in stile patchwork per scale e ambienti di carattere: ogni intervento è stato eseguito con cura artigianale e attenzione alla resa estetica finale.<br><br>In tutti i cantieri, la selezione dei materiali è avvenuta in funzione del contesto architettonico e della destinazione d'uso, garantendo risultati duraturi e visivamente coerenti con l'ambiente circostante.",
+    "photos": [
+      "/img/projects/proj-9-1.jpeg",
+      "/img/projects/proj-9-2.jpeg",
+      "/img/projects/proj-9-3.jpeg",
+      "/img/projects/proj-9-4.jpeg"
     ]
   }
 ]

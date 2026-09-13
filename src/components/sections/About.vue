@@ -80,9 +80,14 @@ section {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .background-image {
+    background-attachment: scroll;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .paragraphs {
-  
       p {
         max-width: 50% !important;
       }

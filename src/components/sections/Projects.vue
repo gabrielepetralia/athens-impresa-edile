@@ -12,15 +12,16 @@ export default {
 
   data() {
     return {
-      projects: projectsData
+      projects: projectsData.slice(0, 4)
     }
   },
 
-  computed: {
-    reversedProjects() {
-      return [...this.projects].reverse();
-    }
-  }
+  // computed: {
+  //   reversedProjects() {
+  //     return [...this.projects].reverse();
+  //   }
+  // }
+
 }
 </script>
 
@@ -29,14 +30,16 @@ export default {
       <h2 class="text-center mb-5">Progetti</h2>
 
       <div class="cards-container">
-        <div v-for="(project, index) in reversedProjects" :key="index" class="proj-col">
+        <div v-for="(project, index) in projects" :key="index" class="proj-col">
           <ProjectCard :project="project"/>
         </div>
       </div>
 
-      <!-- <div class="my-4 d-flex justify-content-center">
-        <span class="gp-btn gp-btn-red">Mostra tutti <i class="fa-solid fa-arrow-right ms-2"></i></span>
-      </div> -->
+      <div class="my-4 d-flex justify-content-center">
+        <RouterLink to="/progetti" class="gp-btn gp-btn-red">
+          Scopri tutti i Progetti <i class="fa-solid fa-arrow-right ms-2"></i>
+        </RouterLink>
+      </div>
 
   </section>
 </template>

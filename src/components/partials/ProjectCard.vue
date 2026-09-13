@@ -17,8 +17,7 @@ export default {
     <div class="card-content d-flex flex-column align-items-center justify-content-center">
       <h4 class="mb-4">{{ project.name }}</h4>
 
-      <router-link :to="{ name: 'project-details', params: { slug: project.slug } }" class="project-btn">Vedi
-        Progetto</router-link>
+      <router-link :to="{ name: 'project-details', params: { slug: project.slug } }" class="project-btn">Scopri di più</router-link>
     </div>
 
   </div>

@@ -21,8 +21,12 @@ export default {
         </a>
       </div>
 
-      <div v-if="$route.path !== '/'">
+      <div v-if="$route.path === '/progetti'">
         <a href="/" class="gp-btn gp-btn-red"><i class="fa-solid fa-arrow-left"></i><span class="d-none d-md-inline-block ms-2">Torna alla Home</span></a>
+      </div>
+
+      <div v-else-if="$route.path !== '/'">
+        <RouterLink to="/progetti" class="gp-btn gp-btn-red"><i class="fa-solid fa-arrow-left"></i><span class="d-none d-md-inline-block ms-2">Torna ai Progetti</span></RouterLink>
       </div>
 
       <nav v-else class="h-100 d-none d-md-block">
