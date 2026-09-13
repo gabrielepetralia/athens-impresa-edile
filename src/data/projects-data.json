@@ -12,15 +12,15 @@
     ]
   },
   {
-    "img": "/img/projects/proj-2.jpeg",
-    "name": "Realizzazione Tomba",
-    "slug": "realizzazione-tomba",
-    "description": "Il nostro progetto cimiteriale si concentra sulla realizzazione di una tomba che va oltre la sua funzione primaria, trasformandola in un luogo di memoria e serenità. Con un design sobrio e rispettoso, intendiamo offrire un rifugio duraturo per coloro che sono venuti prima di noi. <br><br> La tomba proposta si integra armoniosamente nell'ambiente circostante, con dettagli attentamente pensati per comunicare un senso di pace e tranquillità. Utilizzando materiali di qualità e design senza tempo, vogliamo creare un luogo che rispecchi la dignità e l'importanza della vita di chi riposa qui. <br><br>  Oltre all'aspetto estetico, ci concentriamo sulla praticità e la durabilità, garantendo che la tomba sia facilmente accessibile per chi desidera rendere omaggio ai propri cari. Il nostro obiettivo è creare un ambiente che favorisca la riflessione e la consolazione, fornendo un luogo duraturo di commemorazione.",
+    "img": "/img/projects/proj-6.jpeg",
+    "name": "Beach Club Taormina",
+    "slug": "beach-club-taormina",
+    "description": "Il progetto di realizzazione di questo beach club situato a Taormina ha l'obiettivo di creare uno spazio esclusivo e accogliente, in cui relax, comfort e design si fondono armoniosamente con il contesto naturale.<br>Attraverso un'attenta progettazione architettonica e l'utilizzo di materiali di alta qualità, il beach club è stato concepito per offrire aree lounge, servizi ricettivi e spazi ricreativi funzionali ed eleganti.<br><br>Il nostro team ha seguito tutte le fasi del progetto, dall'analisi del sito alla definizione degli spazi, garantendo soluzioni su misura che rispettano il paesaggio e le normative locali.<br>L'intervento ha incluso la realizzazione di strutture leggere e resistenti, pavimentazioni sicure, arredi di design e sistemi per la gestione ottimale degli impianti, assicurando comfort e durabilità.",
     "photos": [
-      "/img/projects/proj-2-1.jpeg",
-      "/img/projects/proj-2-2.jpeg",
-      "/img/projects/proj-2-3.jpeg",
-      "/img/projects/proj-2-4.jpeg"
+      "/img/projects/proj-6-1.jpeg",
+      "/img/projects/proj-6-2.jpeg",
+      "/img/projects/proj-6-3.jpeg",
+      "/img/projects/proj-6-4.jpeg"
     ]
   },
   {
@@ -60,15 +60,15 @@
     ]
   },
   {
-    "img": "/img/projects/proj-6.jpeg",
-    "name": "Beach Club Taormina",
-    "slug": "beach-club-taormina",
-    "description": "Il progetto di realizzazione di questo beach club situato a Taormina ha l'obiettivo di creare uno spazio esclusivo e accogliente, in cui relax, comfort e design si fondono armoniosamente con il contesto naturale.<br>Attraverso un'attenta progettazione architettonica e l'utilizzo di materiali di alta qualità, il beach club è stato concepito per offrire aree lounge, servizi ricettivi e spazi ricreativi funzionali ed eleganti.<br><br>Il nostro team ha seguito tutte le fasi del progetto, dall'analisi del sito alla definizione degli spazi, garantendo soluzioni su misura che rispettano il paesaggio e le normative locali.<br>L'intervento ha incluso la realizzazione di strutture leggere e resistenti, pavimentazioni sicure, arredi di design e sistemi per la gestione ottimale degli impianti, assicurando comfort e durabilità.",
+    "img": "/img/projects/proj-2.jpeg",
+    "name": "Realizzazione Tomba",
+    "slug": "realizzazione-tomba",
+    "description": "Il nostro progetto cimiteriale si concentra sulla realizzazione di una tomba che va oltre la sua funzione primaria, trasformandola in un luogo di memoria e serenità. Con un design sobrio e rispettoso, intendiamo offrire un rifugio duraturo per coloro che sono venuti prima di noi. <br><br> La tomba proposta si integra armoniosamente nell'ambiente circostante, con dettagli attentamente pensati per comunicare un senso di pace e tranquillità. Utilizzando materiali di qualità e design senza tempo, vogliamo creare un luogo che rispecchi la dignità e l'importanza della vita di chi riposa qui. <br><br>  Oltre all'aspetto estetico, ci concentriamo sulla praticità e la durabilità, garantendo che la tomba sia facilmente accessibile per chi desidera rendere omaggio ai propri cari. Il nostro obiettivo è creare un ambiente che favorisca la riflessione e la consolazione, fornendo un luogo duraturo di commemorazione.",
     "photos": [
-      "/img/projects/proj-6-1.jpeg",
-      "/img/projects/proj-6-2.jpeg",
-      "/img/projects/proj-6-3.jpeg",
-      "/img/projects/proj-6-4.jpeg"
+      "/img/projects/proj-2-1.jpeg",
+      "/img/projects/proj-2-2.jpeg",
+      "/img/projects/proj-2-3.jpeg",
+      "/img/projects/proj-2-4.jpeg"
     ]
   },
   
@@ -85,18 +85,6 @@
     ]
   },
   {
-    "img": "/img/projects/proj-8.jpeg",
-    "name": "Lavori di Scavo",
-    "slug": "lavori-di-scavo",
-    "description": "Le immagini raccolte in questa sezione mostrano una selezione di interventi di scavo realizzati nell'ambito di cantieri differenti, a testimonianza della versatilità e della competenza del nostro team in contesti tra loro molto diversi.<br>Dagli scavi su arenile e waterfront, alle demolizioni di pavimentazioni in aree condominiali fronte mare, fino agli sbancamenti su terreni collinari e agli scavi in profondità in ambito cimiteriale, ogni intervento ha richiesto l'impiego di mezzi adeguati e un approccio tecnico calibrato sulle specificità del sito.<br><br>In tutti i casi, la presenza di escavatori compatti e macchinari specializzati ha permesso di operare con precisione anche in spazi ristretti o in condizioni morfologiche complesse, garantendo sicurezza, efficienza e rispetto delle tempistiche di cantiere.",
-    "photos": [
-      "/img/projects/proj-8-1.jpeg",
-      "/img/projects/proj-8-2.jpeg",
-      "/img/projects/proj-8-3.jpeg",
-      "/img/projects/proj-8-4.jpeg"
-    ]
-  },
-  {
     "img": "/img/projects/proj-10.jpeg",
     "name": "Impermeabilizzazione Giunto",
     "slug": "impermeabilizzazione-giunto",
@@ -106,6 +94,18 @@
       "/img/projects/proj-10-2.jpeg",
       "/img/projects/proj-10-3.jpeg",
       "/img/projects/proj-10-4.jpeg"
+    ]
+  },
+  {
+    "img": "/img/projects/proj-8.jpeg",
+    "name": "Lavori di Scavo",
+    "slug": "lavori-di-scavo",
+    "description": "Le immagini raccolte in questa sezione mostrano una selezione di interventi di scavo realizzati nell'ambito di cantieri differenti, a testimonianza della versatilità e della competenza del nostro team in contesti tra loro molto diversi.<br>Dagli scavi su arenile e waterfront, alle demolizioni di pavimentazioni in aree condominiali fronte mare, fino agli sbancamenti su terreni collinari e agli scavi in profondità in ambito cimiteriale, ogni intervento ha richiesto l'impiego di mezzi adeguati e un approccio tecnico calibrato sulle specificità del sito.<br><br>In tutti i casi, la presenza di escavatori compatti e macchinari specializzati ha permesso di operare con precisione anche in spazi ristretti o in condizioni morfologiche complesse, garantendo sicurezza, efficienza e rispetto delle tempistiche di cantiere.",
+    "photos": [
+      "/img/projects/proj-8-1.jpeg",
+      "/img/projects/proj-8-2.jpeg",
+      "/img/projects/proj-8-3.jpeg",
+      "/img/projects/proj-8-4.jpeg"
     ]
   },
   {

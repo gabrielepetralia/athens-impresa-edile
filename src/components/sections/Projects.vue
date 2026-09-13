@@ -35,7 +35,7 @@ export default {
         </div>
       </div>
 
-      <div class="my-4 d-flex justify-content-center">
+      <div class="mt-5 mb-4 d-flex justify-content-center">
         <RouterLink to="/progetti" class="gp-btn gp-btn-red">
           Scopri tutti i Progetti <i class="fa-solid fa-arrow-right ms-2"></i>
         </RouterLink>
