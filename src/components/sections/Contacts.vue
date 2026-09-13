@@ -114,10 +114,4 @@ section {
   }
 
 }
-
-@media screen and (max-width: 991px) {
-  .background-image {
-    background-attachment: scroll;
-  }
-}
 </style>

@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-  <div class="progetti-page pt-5">
+  <div class="progetti-page pt-5 pt-md-5 mt-3 mt-md-0">
     <h2 class="text-center mb-5">Progetti</h2>
 
     <div class="cards-container">

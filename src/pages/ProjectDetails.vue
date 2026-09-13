@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-  <div class="project-details gp-container py-5">
+  <div class="project-details gp-container py-5 mt-3 mt-md-0">
     <h2 class="text-center mb-5">{{ project.name }}</h2>
 
     <div class="photos-mobile d-grid d-md-none">
